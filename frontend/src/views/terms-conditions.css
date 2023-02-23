@@ -1,0 +1,178 @@
+.terms-conditions-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.terms-conditions-features {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  flex-direction: column;
+}
+.terms-conditions-header {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.terms-conditions-navlink {
+  display: contents;
+}
+.terms-conditions-image {
+  width: 183px;
+  height: 104px;
+  text-decoration: none;
+}
+.terms-conditions-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: var(--dl-color-gray-900);
+}
+.terms-conditions-accordion-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.terms-conditions-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: none;
+}
+.terms-conditions-accordion-content {
+  display: flex;
+  overflow: hidden;
+  max-height: 0;
+  transition: 0.3s ease-in-out;
+  align-items: center;
+  flex-direction: column;
+}
+.terms-conditions-nav1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.terms-conditions-text {
+  font-size: 3rem;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.terms-conditions-separator1 {
+  width: 100px;
+  height: 2px;
+  background-color: var(--dl-color-gray-500);
+}
+.terms-conditions-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.terms-conditions-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.terms-conditions-image1 {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-left: var(--dl-space-space-fourunits);
+  border-radius: var(--dl-radius-radius-round);
+  object-position: left;
+}
+@media(max-width: 1600px) {
+  .terms-conditions-image {
+    width: 191px;
+    height: 108px;
+  }
+}
+@media(max-width: 1200px) {
+  .terms-conditions-header {
+    margin-bottom: 85px;
+  }
+  .terms-conditions-image {
+    width: 178px;
+    height: 104px;
+  }
+  .terms-conditions-text {
+    font-size: 3rem;
+  }
+}
+@media(max-width: 991px) {
+  .terms-conditions-features {
+    align-items: center;
+  }
+  .terms-conditions-nav1 {
+    padding-top: 16px;
+  }
+  .terms-conditions-container1 {
+    flex-direction: column;
+  }
+  .terms-conditions-image1 {
+    width: 300px;
+    height: 300px;
+    margin-top: var(--dl-space-space-twounits);
+    margin-left: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .terms-conditions-features {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .terms-conditions-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .terms-conditions-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .terms-conditions-nav {
+    display: none;
+  }
+  .terms-conditions-icon {
+    display: flex;
+  }
+  .terms-conditions-text {
+    text-align: center;
+  }
+  .terms-conditions-container1 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .terms-conditions-features {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .terms-conditions-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .terms-conditions-separator {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .terms-conditions-container2 {
+    grid-template-columns: 1fr;
+  }
+  .terms-conditions-image1 {
+    width: 250px;
+    height: 250px;
+  }
+}

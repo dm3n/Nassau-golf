@@ -1,0 +1,47 @@
+{
+  "name": "nassau-golf",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^7.0.0-alpha.0",
+    "@portabletext/react": "^2.0.1",
+    "@sanity/client": "^4.0.1",
+    "@sanity/image-url": "^1.0.2",
+    "@stripe/react-stripe-js": "^1.16.4",
+    "@stripe/stripe-js": "^1.46.0",
+    "canvas-confetti": "^1.6.0",
+    "prop-types": "15.7.2",
+    "react": "^17.0.2",
+    "react-awesome-lightbox": "^1.8.1",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.7.1",
+    "react-loading": "^2.0.3",
+    "react-router-dom": "^6.8.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test --env=jsdom",
+    "eject": "craco eject"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}

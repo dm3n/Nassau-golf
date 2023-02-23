@@ -1,0 +1,177 @@
+.product-features-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.product-features-header {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.product-features-navlink {
+  display: contents;
+}
+.product-features-image {
+  width: 149px;
+  height: 90px;
+  text-decoration: none;
+}
+.product-features-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: var(--dl-color-gray-900);
+}
+.product-features-accordion-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.product-features-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: none;
+}
+.product-features-accordion-content {
+  display: flex;
+  overflow: hidden;
+  max-height: 0;
+  transition: 0.3s ease-in-out;
+  align-items: center;
+  flex-direction: column;
+}
+.product-features-nav1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.product-features-features {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  flex-direction: column;
+}
+.product-features-text {
+  font-size: 3rem;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.product-features-separator1 {
+  width: 100px;
+  height: 2px;
+  background-color: var(--dl-color-gray-500);
+}
+.product-features-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.product-features-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.product-features-image1 {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-left: var(--dl-space-space-fourunits);
+  border-radius: var(--dl-radius-radius-round);
+  object-position: left;
+}
+@media(max-width: 1600px) {
+  .product-features-text {
+    font-size: 3rem;
+  }
+}
+@media(max-width: 1200px) {
+  .product-features-header {
+    margin-bottom: 85px;
+  }
+  .product-features-image {
+    width: 178px;
+    height: 104px;
+  }
+  .product-features-text {
+    font-size: 3rem;
+  }
+}
+@media(max-width: 991px) {
+  .product-features-nav1 {
+    padding-top: 16px;
+  }
+  .product-features-features {
+    align-items: center;
+  }
+  .product-features-container1 {
+    flex-direction: column;
+  }
+  .product-features-image1 {
+    width: 300px;
+    height: 300px;
+    margin-top: var(--dl-space-space-twounits);
+    margin-left: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .product-features-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .product-features-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .product-features-nav {
+    display: none;
+  }
+  .product-features-icon {
+    display: flex;
+  }
+  .product-features-features {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .product-features-text {
+    text-align: center;
+  }
+  .product-features-container1 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .product-features-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .product-features-separator {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .product-features-features {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .product-features-container2 {
+    grid-template-columns: 1fr;
+  }
+  .product-features-image1 {
+    width: 250px;
+    height: 250px;
+  }
+}
